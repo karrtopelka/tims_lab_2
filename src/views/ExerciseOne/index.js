@@ -25,7 +25,7 @@ const ExerciseOne = () => {
       <Box w="75%" mx="auto" p="2">
         <FreqChart />
       </Box>
-      <Box>
+      <Box w="75%" mx="auto" p="2">
         <ExerciseOneStats />
       </Box>
     </Flex>
