@@ -10,6 +10,8 @@ import {
   selectNSum,
   selectP,
   selectSigma,
+  selectEmpirichne,
+  selectKritichne,
 } from '../../features/inputs';
 
 const ExerciseOneStats = () => {
@@ -17,6 +19,8 @@ const ExerciseOneStats = () => {
   const a = useSelector(selectA);
   const sigma = useSelector(selectSigma);
   const p = useSelector(selectP);
+  const empirichne = useSelector(selectEmpirichne);
+  const kritichne = useSelector(selectKritichne);
 
   return (
     <Box
@@ -40,7 +44,15 @@ const ExerciseOneStats = () => {
         <Divider my="2" />
         <NeedToCombine />
         <Divider my="2" />
-        <Statter label="Емпіричне значення статистики" value={sigma} />
+        <Statter label="Емпіричне значення статистики" value={empirichne} />
+        <Divider my="2" />
+        <Statter label="Критичне значення статистики" value={kritichne} />
+        <Divider my="2" />
+        <Heading as="h2" size="lg">
+          {empirichne > kritichne
+            ? `Нормальний закон відхиляється ${empirichne} > ${kritichne}`
+            : 'Нормальний закон підтверджується'}
+        </Heading>
       </Box>
     </Box>
   );

@@ -41,6 +41,8 @@ export const combineIntervals = () => {
           }
         }
       }
+    } else {
+      intervals[i].push(parseFloat((intervals[i][3] * sum).toFixed(2)));
     }
   }
 
