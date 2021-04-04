@@ -6,9 +6,13 @@ import { Th } from '@chakra-ui/table';
 import { Thead } from '@chakra-ui/table';
 import { Table } from '@chakra-ui/table';
 import React from 'react';
-import { DATA, columnsExerciseTwo } from '../../features/dataTableEx2';
+import {
+  DATA,
+  columnsExerciseTwo,
+  columnsExerciseTwoNew,
+} from '../../features/dataTableEx2';
 
-const DataTableEx2 = () => {
+const DataTableEx2 = ({ newTable }) => {
   return (
     <Table size="md" variant="simple" mt="2" mb="2">
       <TableCaption placement="top">
@@ -16,9 +20,13 @@ const DataTableEx2 = () => {
       </TableCaption>
       <Thead>
         <Tr>
-          {columnsExerciseTwo.map((column) => (
-            <Th key={column.property}>{column.header}</Th>
-          ))}
+          {newTable
+            ? columnsExerciseTwoNew.map((column) => (
+                <Th key={column.property}>{column.header}</Th>
+              ))
+            : columnsExerciseTwo.map((column) => (
+                <Th key={column.property}>{column.header}</Th>
+              ))}
         </Tr>
       </Thead>
       <Tbody>

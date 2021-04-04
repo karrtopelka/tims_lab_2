@@ -11,12 +11,11 @@ const ExerciseTwoStats = () => {
       boxShadow="lg"
       w="full"
       p="2"
-      mb="10"
+      my="10"
     >
-      <Heading textAlign="center">Статистика (Рівномірний закон)</Heading>
+      <Heading textAlign="center">Статистика</Heading>
       <Divider my="2" />
-      <Box p="2">
-        {/* <Statter label="Сума вибірки" value={nSum} />
+      {/* <Statter label="Сума вибірки" value={nSum} />
         <Divider my="2" />
         <Statter label="a (Математичне сподівання)" value={a} />
         <Divider my="2" />
@@ -35,7 +34,6 @@ const ExerciseTwoStats = () => {
             ? `Нормальний закон відхиляється ${empirichne} > ${kritichne}`
             : 'Нормальний закон підтверджується'}
         </Heading> */}
-      </Box>
     </Box>
   );
 };

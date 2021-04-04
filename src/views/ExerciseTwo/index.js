@@ -5,6 +5,7 @@ import { Flex } from '@chakra-ui/layout';
 import React from 'react';
 import DataTableEx2 from '../../components/DataTableEx2';
 import FreqChartEx2 from '../../components/FreqChartEx2';
+import ExerciseTwoStatsHeading from '../../components/ExerciseTwoStatsHeading';
 import ExerciseTwoStats from '../../components/ExerciseTwoStats';
 
 const ExerciseTwo = () => {
@@ -24,6 +25,10 @@ const ExerciseTwo = () => {
       <Box w="75%" mx="auto" p="2">
         <FreqChartEx2 />
       </Box>
+      <Box w="75%" mx="auto" p="2">
+        <ExerciseTwoStatsHeading />
+      </Box>
+      <DataTableEx2 newTable />
       <Box w="75%" mx="auto" p="2">
         <ExerciseTwoStats />
       </Box>

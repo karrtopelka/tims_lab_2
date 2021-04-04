@@ -31,3 +31,19 @@ export const columnsExerciseTwo = [
   { property: 'm11', header: '11' },
   { property: 'm12', header: '12' },
 ];
+
+export const columnsExerciseTwoNew = [
+  { property: 'name', header: 'місяці року' },
+  { property: 'm1', header: '0-1' },
+  { property: 'm2', header: '1-2' },
+  { property: 'm3', header: '2-3' },
+  { property: 'm4', header: '3-4' },
+  { property: 'm5', header: '4-5' },
+  { property: 'm6', header: '5-6' },
+  { property: 'm7', header: '6-7' },
+  { property: 'm8', header: '7-8' },
+  { property: 'm9', header: '8-9' },
+  { property: 'm10', header: '9-10' },
+  { property: 'm11', header: '10-11' },
+  { property: 'm12', header: '11-12' },
+];
