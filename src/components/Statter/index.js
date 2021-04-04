@@ -8,10 +8,8 @@ const Statter = ({ label, value, symbol, ...rest }) => {
   return (
     <Stat {...rest}>
       <StatLabel fontSize="xl">{label}</StatLabel>
-      <StatNumber fontSize={typeof value === 'number' ? '3xl' : 'lg'}>
-        {typeof value === 'number' ? (
-          value
-        ) : (
+      <StatNumber fontSize={typeof value === 'object' ? 'lg' : '3xl'}>
+        {typeof value === 'object' ? (
           <>
             {value.map((val, i) => (
               <Text key={val}>
@@ -19,6 +17,8 @@ const Statter = ({ label, value, symbol, ...rest }) => {
               </Text>
             ))}
           </>
+        ) : (
+          value
         )}
       </StatNumber>
     </Stat>
