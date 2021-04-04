@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/tims_lab_2/static/css/main.894d8853.chunk.css",
-    "main.js": "/tims_lab_2/static/js/main.d16e29bb.chunk.js",
-    "main.js.map": "/tims_lab_2/static/js/main.d16e29bb.chunk.js.map",
+    "main.js": "/tims_lab_2/static/js/main.696f5344.chunk.js",
+    "main.js.map": "/tims_lab_2/static/js/main.696f5344.chunk.js.map",
     "runtime-main.js": "/tims_lab_2/static/js/runtime-main.543a6330.js",
     "runtime-main.js.map": "/tims_lab_2/static/js/runtime-main.543a6330.js.map",
-    "static/js/2.72388379.chunk.js": "/tims_lab_2/static/js/2.72388379.chunk.js",
-    "static/js/2.72388379.chunk.js.map": "/tims_lab_2/static/js/2.72388379.chunk.js.map",
+    "static/js/2.4db58605.chunk.js": "/tims_lab_2/static/js/2.4db58605.chunk.js",
+    "static/js/2.4db58605.chunk.js.map": "/tims_lab_2/static/js/2.4db58605.chunk.js.map",
     "index.html": "/tims_lab_2/index.html",
     "static/css/main.894d8853.chunk.css.map": "/tims_lab_2/static/css/main.894d8853.chunk.css.map",
-    "static/js/2.72388379.chunk.js.LICENSE.txt": "/tims_lab_2/static/js/2.72388379.chunk.js.LICENSE.txt"
+    "static/js/2.4db58605.chunk.js.LICENSE.txt": "/tims_lab_2/static/js/2.4db58605.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.543a6330.js",
-    "static/js/2.72388379.chunk.js",
+    "static/js/2.4db58605.chunk.js",
     "static/css/main.894d8853.chunk.css",
-    "static/js/main.d16e29bb.chunk.js"
+    "static/js/main.696f5344.chunk.js"
   ]
 }
