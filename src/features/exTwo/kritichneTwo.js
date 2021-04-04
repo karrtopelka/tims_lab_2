@@ -4,6 +4,6 @@ export const kritichneTwo = () => {
   let r = rp1 - 1;
   let alpha = 0.05;
   let df = r - s;
-
+  console.log({ df, alpha });
   return 19.68;
 };
