@@ -73,6 +73,7 @@ const ExerciseTwoStats = () => {
           (nSumTwo / (columnsExerciseTwoNew.length - 1)).toFixed(2),
         )}`}
       />
+      <Divider my="2" />
       <Statter label="Емпіричне значення статистики" value={empirichneTwo} />
       <Divider my="2" />
       <Statter label="Всі ni > 5?" value={eachNi()} />
@@ -108,7 +109,7 @@ const ExerciseTwoStats = () => {
       </Select>
       <Heading as="h2" size="lg">
         {empirichneTwo > obj[option]
-          ? `Рівномірний закон відхиляється ${empirichneTwo} > ${kritichneTwo}`
+          ? `Рівномірний закон відхиляється ${empirichneTwo} < ${kritichneTwo}`
           : 'Рівномірний закон підтверджується'}
       </Heading>
     </Box>
